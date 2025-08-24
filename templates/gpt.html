@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatGPT 4o</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+<body>
+    <div id="chatbot-container">
+      <div id="chatbot-header">
+        <span>Chatbot V 1.0.0</span>
+      </div>
+      <div id="chatbot-body">
+        <div id="chatbot-messages"></div>
+      </div>
+      <div id="chatbot-input-container">
+        <input type="text" id="chatbot-input" placeholder="Enter text to begin using ChatGPT" class="input_box">
+        <button id="send-btn" class="submit">Submit</button>
+      </div>
+    </div>
+    
+    <div class = "footer">
+        <a href="/aboutme/">📄 Learn more About Me</a>
+    </div>
+
+    <script src="{{ url_for('static', filename='script1.js') }}"></script>
+</body>
+</html>
